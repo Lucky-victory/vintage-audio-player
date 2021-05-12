@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>Vintage Audio Player</title>
+</head>
+<body>
+ <div class="wrapper">
+   <div class="box">
+     <audio src="https://raw.githubusercontent.com/Lucky-victory/zplayer/master/songs/angels-like-you.mp3" id="audioElem" hidden></audio>
+     <div class="box-top">
+       <div class="tuner">
+         <div class="tuner-inner"></div>
+         <div class="tuner-line"></div>
+       </div>
+     </div><!--   box-top -->
+     
+     <div class="tuner-roller"></div>
+     <div class="rect-boxes-container">
+       <span class="rect-box"></span>
+       <span class="rect-box"></span>
+       <span class="rect-box middle-rect-box"></span>
+       <span class="rect-box"></span>
+       <span class="rect-box"></span>
+     </div>
+   <div class="box-handle">
+   </div>
+   <div class="box-handle-pole left-pole"></div>
+     <div class="box-handle-pole right-pole"></div>
+     <div class="speaker left"></div>
+     <div class="cassette-box">
+       <div class="cassette-box-inner">
+       </div>
+     </div>
+<div class="box-middle">
+       <div class="btns-container">
+   <input type="checkbox"  class="btns" id="stopBtn"/>
+   <input type="checkbox"  class="btns" id="prevBtn"/>
+   <input type="checkbox"  class="btns" id="playPauseBtn" />
+   <input type="checkbox"  class="btns" id="nextBtn"/>
+<!--    <input type="checkbox"  class="btns" id="recBtn"/> -->
+      
+    </div>
+</div>
+     <div class="speaker right"></div>
+   </div>
+ </div> 
+ 
+ <script src="main.js" type="text/javascript" charset="utf-8"></script>
+ 
+</body>
+</html>
